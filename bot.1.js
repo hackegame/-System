@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(`_help`,'https://www.twitch.tv/ksa.7772');
+  client.user.setGame(`*help`,'https://www.twitch.tv/ksa.7772');
   console.log('CODE BY JOKER');
 });
 client.on('message', message => {
